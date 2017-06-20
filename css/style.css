@@ -197,14 +197,21 @@ a:focus {
   border: 1px solid #DC4242;
 }
 
+ul.contact-list {
+  list-style: none;
+  margin-left: -47px;
+  font-size: 1.5em !important;
+}
+
 ul.banner-social-buttons {
   margin-top: 0;
   padding-top: 10px;
 }
 
 footer {
-  padding: 10px 0;
+  font-size: 0.6em !important;
   background: #fcfcfc;
+  padding: 35px 0 10px 0;
   background: rgba(255, 255, 255, 0.2);
 }
 footer p {

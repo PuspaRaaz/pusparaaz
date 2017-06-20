@@ -1,0 +1,213 @@
+body {
+  width: 100%;
+  color: white;
+  height: 100%;
+  background-color: black;
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  margin: 0 0 25px;
+  line-height: 1.5;
+}
+
+a {
+  color: #DC4242;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #9B1D1D;
+  text-decoration: none;
+}
+
+.light {
+  font-weight: 400;
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+  background-color: black;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar-custom .navbar-toggle {
+  color: white;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -webkit-transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+  outline: none;
+  color: #9B1D1D;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  color: #9B1D1D;
+}
+.intro {
+  width: 100%;
+  color: white;
+  height: auto;
+  display: table;
+  padding: 100px 0;
+  text-align: center;
+  background-color: black;
+  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+}
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+.intro .intro-body .brand-heading {
+  font-size: 40px;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+
+.btn-circle {
+  width: 70px;
+  color: white;
+  height: 70px;
+  font-size: 40px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -webkit-transition: background 0.3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+.btn-circle i.animated {
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -webkit-transition-property: -webkit-transform;
+}
+.btn-circle:hover i.animated {
+  -moz-animation-name: pulse;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.section {
+  padding: 51px 0;
+ }
+
+.section h2 {
+  text-transform: capitalize;
+  text-decoration: underline #DC4242;
+}
+
+.skills-section {
+  width: 100%;
+  color: white;
+  padding: 90px 0;
+  background-size: cover;
+  background-color: black;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background: url(../img/downloads-bg.jpg) no-repeat bottom center scroll;
+}
+
+.intro-body p,
+.skills-section p {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn {
+  border-radius: 0;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-default {
+  color: #DC4242;
+  border: 1px solid #DC4242;
+  background-color: transparent;
+  border-radius: 05px !important;
+}
+.btn-default:hover,
+.btn-default:focus {
+  color: black;
+  outline: none;
+  background-color: #DC4242;
+  border: 1px solid #DC4242;
+}
+
+ul.banner-social-buttons {
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+footer {
+  padding: 10px 0;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+footer p {
+  margin: 0;
+}
+

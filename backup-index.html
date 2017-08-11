@@ -23,16 +23,13 @@
 
       .topnav {overflow: hidden; border-top: 1px solid #444; border-bottom: 1px
       solid #444}
-      .topnav a:first-child {display: none}
       .topnav a {color: #444; float: left; display: block; padding: 14px 16px;
         text-align: center; text-decoration: none}
       .topnav a:hover {color: black}
       .topnav .icon {display: none}
 
       @media screen and (max-width: 650px) {
-        header .page-title, .topnav a {display: none}
-        .topnav {border: none}
-        .topnav a:first-child {display: block}
+        .topnav a:not(:first-child) {display: none}
         .topnav a.icon {float: right; display: block}
         .topnav.responsive {position: relative}
         .topnav.responsive .icon {position: absolute; right: 0; top: 0}
@@ -42,14 +39,11 @@
   </head>
   <body>
     <header>
-      <div class="page-title">
-        <h1><a target="self" href="/">Pusparaj</a></h1>
-       <aside>computer engineer</aside>
-      </div>
+      <h1><a target="self" href="/">Pusparaj</a></h1>
+      <aside>computer engineer</aside>
       <div class="topnav" id="nav-bar">
-        <a target="self" href="/"><b>Pusparaj</b></a>
+        <a target="self" href="/">home</a>
         <a target="self" href="/#about">about</a>
-        <a target="self" href="/#blog">blog</a>
         <a target="self" href="/#contact">contact</a>
         <a target="self" href="/#education">education</a>
         <a target="self" href="/#experience">experience</a>

@@ -1,0 +1,98 @@
+/*
+|----------------------------------------------------------------------------
+| iPads (landscape)
+|----------------------------------------------------------------------------
+*/
+@media only screen and (max-device-width: 1024px) {
+  nav ul li a {
+    padding: 0px 8px;
+  }
+  nav .button-collapse i {
+    margin-top: 0px;
+  }
+  .btn {
+    width: 120px;
+    padding: 2px 10px;
+  }
+  #about .intro-content .btn {
+    padding: 2px 10px;
+    width: 140px;
+  }
+  .cd-timeline-content h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .btn {
+    box-shadow: inherit !important;
+  }
+}
+/*
+|----------------------------------------------------------------------------
+| Smartphones (portrait) 
+|----------------------------------------------------------------------------
+*/
+@media only screen and (max-width: 400px) {
+  #header-top .top-contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #header-bottom {
+    padding-bottom: 20px;
+  }
+}
+/*
+|----------------------------------------------------------------------------
+| Tab Portrail
+|----------------------------------------------------------------------------
+*/
+@media only screen and (max-device-width: 600px) {
+  .btn {
+    width: 120px;
+  }
+  #about .intro-content p {
+    padding: 0px;
+  }
+  .cd-timeline-content {
+    margin-top: 20px;
+  }
+  .cd-timeline-content h2 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .cd-timeline-img {
+    display: none;
+  }
+  .cd-timeline-content::before {
+    display: none;
+  }
+}
+/*
+|----------------------------------------------------------------------------
+| tab portrait and down  
+|----------------------------------------------------------------------------
+*/
+@media only screen and (max-width: 992px) {
+  body {
+    text-align: center;
+  }
+  nav ul li a:hover {
+    color: inherit;
+  }
+  .btn {
+    width: 120px;
+  }
+  footer span {
+    display: block;
+  }
+  footer .copyright,
+  footer .links {
+    clear: both;
+    float: none;
+  }
+  footer .links {
+    padding: 5px 0 1px 0;
+  }
+  footer .copyright{
+    padding: 1px 0 5px 0;
+  }
+}

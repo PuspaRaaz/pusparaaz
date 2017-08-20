@@ -1,0 +1,334 @@
+/*
+|----------------------------------------------------------------------------
+| FORMATING
+|---------------------------------------------------------------------------- 
+*/
+.row {
+  margin-bottom: 0px;
+}
+.btn {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 15px;
+  height: auto;
+  margin: 0.3em;
+  overflow: hidden;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 200px;
+}
+.btn:hover {
+  box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shodew: 0 5px 13px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shodow: 0 5px 13px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -o-box-shodow: 0 5px 13px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background: #e3e3e3;
+}
+a {
+  color: #8a8a8b;
+  cursor: pointer;
+}
+.section-title {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  margin: 0px;
+  opacity: 0.7;
+  padding-top: 20px;
+}
+.section-title h2 i {
+  margin-right: 30px;
+}
+.section {
+  text-align: left;
+}
+/*
+|----------------------------------------------------------------------------
+| TYPOGRAPHY
+|----------------------------------------------------------------------------
+*/
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 5px 0;
+}
+h1 {
+  font-size: 40px;
+  line-height: 70px;
+}
+/*
+|----------------------------------------------------------------------------
+| HEADER TOP
+|----------------------------------------------------------------------------
+*/
+#header-top {
+  background: #c73330;
+  min-height: 100px;
+}
+#header-top .top-contact {
+  color: #000;
+  margin: 20px;
+  opacity: 0.5;
+}
+#header-top .top-contact span {
+  float: right;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-left: 40px;
+  text-align: left;
+}
+#header-top .top-contact span .fa {
+  margin-right: 5px;
+}
+#header-top .top-contact span a {
+  color: #000;
+}
+/*
+|----------------------------------------------------------------------------
+| HEADER BOTTOM
+|---------------------------------------------------------------------------- 
+*/
+#header-bottom {
+  background-color: #d14848;
+  z-index: 9999;
+}
+#header-bottom .row {
+  margin-bottom: 0px;
+}
+nav {
+  background-color: inherit;
+  box-shadow: inherit;
+}
+nav ul li {
+  background-color: inherit;
+}
+nav ul li a {
+  font-weight: bolder;
+  margin: 0px;
+  opacity: 0.7;
+  padding: 0px 10px;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  background-color: inherit;
+  color: #fff;
+  opacity: inherit;
+  transition: 0.2s ease-in;
+}
+#sidenav-overlay {
+  z-index: 99;
+}
+nav .button-collapse i {
+  margin-top: 10px;
+}
+.side-nav li:hover,
+.side-nav li.active {
+  background-color: inherit;
+  color: #444;
+}
+#sticky-nav {
+  background-color: #d14848;
+  z-index: 999;
+}
+/*
+|----------------------------------------------------------------------------
+| ABOUT
+|----------------------------------------------------------------------------
+*/
+#about {
+  margin-bottom: 10px;
+  padding-top: 90px;
+  text-align: center;
+}
+#about .container .intro {
+  background: #fff;
+  padding: 40px 40px 80px 30px;
+}
+#about .profile-pic img {
+  display: inline-block;
+  height: 150px;
+  margin-top: -100px;
+  width: 150px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+#about .intro-content {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+#about a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+#about .intro-content h2 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 52px;
+  margin: 0px;
+  opacity: 0.7;
+}
+#about .intro-content span {
+  color: #8a8a8b;
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 25px;
+}
+#about .intro-content p {
+  font-size: 15px;
+  line-height: 27px;
+  margin-bottom: 40px;
+  opacity: 0.7;
+  padding: 0 90px;
+}
+#about .intro-content .btn {
+  border-color: inherit;
+  margin: 10px;
+  padding: 5px 30px;
+  text-transform: uppercase;
+}
+#about .intro-content .btn a {
+  color: #fff;
+}
+#about .intro-content .btn-info {
+  background-color: #00a9ff;
+  border-color: inherit;
+}
+#about .intro-content .btn-success {
+  background-color: #38de8a;
+  border-color: inherit;
+}
+/*
+|----------------------------------------------------------------------------
+| SKILLS
+|----------------------------------------------------------------------------
+*/
+#skills .skill-line {
+  background: #d14848;
+  color: #fff;
+  padding: 40px 30px;
+}
+#skills .skill-line .skill-icon {
+  font-size: 30px;
+  line-height: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#skills .skill-line .skill-bar {
+  padding: 10px;
+}
+#skills .skill-line .skill-bar h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+#skills .skill-line .skill-bar div {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+#skills .skill-line .skill-bar div i {
+  margin-right: 3px;
+}
+/*
+|----------------------------------------------------------------------------
+| WORK EXPERIENCE 
+|----------------------------------------------------------------------------
+*/
+.cd-timeline-img {
+  background-color: #d14848;
+  margin-left: -8px;
+}
+.cd-timeline-content {
+  border-radius: 2px;
+  padding: 60px 40px !important;
+}
+.cd-timeline-content a {
+  color: inherit;
+}
+.cd-timeline-content a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+.cd-timeline-content h2 {
+  color: inherit;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0px;
+  opacity: 0.7;
+}
+.cd-timeline-content span {
+  color: #d14848;
+  font-size: 16px;
+  line-height: 34px;
+}
+.cd-timeline-content p {
+  font-size: 15px;
+  line-height: 27px;
+  margin: 0;
+  opacity: 0.7;
+}
+/*
+|----------------------------------------------------------------------------
+| INTERESTS
+|----------------------------------------------------------------------------
+*/
+.interests ul {
+  background-color: #fff;
+  overflow: hidden;
+  padding-left: 0px;
+  padding: 30px 0px;
+}
+.interests ul li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+.interests ul li .fa {
+  color: #d14848;
+  font-size: 40px;
+  line-height: 57px;
+}
+/*
+|----------------------------------------------------------------------------
+| FOOTER 
+|----------------------------------------------------------------------------
+*/
+footer {
+  background-color: #d14848;
+  color: white;
+  margin-top: 20px;
+}
+footer a:hover {
+  color: white;
+}
+footer .copyright {
+  float: left;
+  padding: 12px;
+}
+footer .links {
+  float: right;
+}
+footer .links ul li {
+  display: inline;
+  padding: 7px;
+}
